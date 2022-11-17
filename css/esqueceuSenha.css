@@ -1,0 +1,72 @@
+#esqueceu {
+    background-color: rgb(19, 19, 19);
+    border: solid 0.5px var(--verde);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px var(--sombra);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    transition: 0.2s;
+    width: auto;
+}
+
+.esqueceu__titulo {
+    font-family: var(--font);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.esqueceu__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.esqueceu__form_user {
+    font-size: 1.5rem;
+}
+
+.esqueceu__form_senha, .esqueceu__form_confirmarSenha {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.esqueceu__form_emailInput {
+    background: transparent;
+    border: solid 0.5px var(--verde);
+    border-radius: 5px;
+    color: white;
+    height: 1.5rem;
+    margin-top: 0.9rem;
+}
+
+.esqueceu__botao {
+    background: transparent;
+    border: solid 0.5px var(--verde);
+    border-radius: 5px;
+    color: var(--verde);
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+.esqueceu__botao:hover {
+    background: var(--verde);
+    color: white;
+}
+
+.login {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
