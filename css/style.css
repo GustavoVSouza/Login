@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&display=swap');
+
+:root {
+    --fonte: 'Josefin Sans', sans-serif;
+    --verde: rgb(73, 161, 0);
+    --sombra: rgba(72, 161, 0, 0.137);
+    --branco: rgb(241, 241, 241);
+    --cinza: rgba(255, 255, 255, 0.555);
+}
+
+body {
+    font-family: var(--fonte);
+    color: var(--branco);
+    background-color: rgb(22, 22, 22);
+}
+
+a {
+    color: var(--branco);
+}
+
+a:hover {
+    color: var(--verde);
+}
+
+::placeholder {
+    text-align: center;
+    color: var(--cinza);
+}

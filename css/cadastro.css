@@ -1,0 +1,69 @@
+#cadastro {
+    background-color: rgb(19, 19, 19);
+    border: solid 0.5px var(--verde);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px var(--sombra);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-left: 36%;
+    margin-top: 5%;
+    text-align: center;
+    transition: 0.2s;
+    width: 500px;
+}
+
+.cadastro__titulo {
+    font-family: var(--font);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.cadastro__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro__form_user {
+    font-size: 1.5rem;
+}
+
+.cadastro__form_senha {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.cadastro__form_senhaInput, .cadastro__form_userInput {
+    background: transparent;
+    border: solid 0.5px var(--verde);
+    border-radius: 5px;
+    color: white;
+    height: 1.5rem;
+    margin-top: 0.9rem;
+}
+
+.cadastro__botao {
+    background: transparent;
+    border: solid 0.5px var(--verde);
+    border-radius: 5px;
+    color: var(--verde);
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+.cadastro__botao:hover {
+    background: var(--verde);
+    color: white;
+}
+
+.cadastrar {
+    margin-top: 1rem;
+}

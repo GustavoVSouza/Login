@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leading page</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    
+    <main id="cadastro">
+        <h1 class="cadastro__titulo">Login</h1>
+        <div>
+            <form class="cadastro__form">
+                <label class="cadastro__form_user">User</label>
+                <input type="text" class="cadastro__form_userInput" placeholder="user" required>
+                <label class="cadastro__form_senha">Senha</label>
+                <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" class="cadastro__form_senhaInput" placeholder="senha" required>
+                <button class="cadastro__botao">Entrar</button>
+            </form>
+        </div>
+        <div>
+            <h2><a href="esqueceu_senha.html">Esqueceu senha?</a></h2>
+            <h2 class="cadastrar"><a href="cadastro.html">Cadastrar-se</a></h2>
+        </div>
+    </main>
+</body>
+</html>
