@@ -1,44 +1,42 @@
-#cadastro {
+#login {
     background-color: rgb(19, 19, 19);
     border: solid 0.5px var(--verde);
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px var(--sombra);
     display: flex;
     flex-direction: column;
-    height: auto;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    height: 600px;
+    margin-left: 33%;
+    margin-top: 5%;
     text-align: center;
     transition: 0.2s;
-    width: auto;
+    width: 500px;
 }
 
-.cadastro__titulo {
+.login__titulo {
     font-family: var(--font);
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 3rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
-.cadastro__form {
+.login__form {
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-.cadastro__form_user {
+.login__form_user {
     font-size: 1.5rem;
 }
 
-.cadastro__form_senha, .cadastro__form_confirmarSenha {
+.login__form_senha {
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
-.cadastro__form_senhaInput, .cadastro__form_userInput, .cadastro__form_emailInput {
+.login__form_senhaInput, .login__form_userInput {
     background: transparent;
     border: solid 0.5px var(--verde);
     border-radius: 5px;
@@ -47,7 +45,7 @@
     margin-top: 0.9rem;
 }
 
-.cadastro__botao {
+.login__botao {
     background: transparent;
     border: solid 0.5px var(--verde);
     border-radius: 5px;
@@ -61,12 +59,11 @@
     transition: 0.5s;
 }
 
-.cadastro__botao:hover {
+.login__botao:hover {
     background: var(--verde);
     color: white;
 }
 
-.login {
+.cadastrar {
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }

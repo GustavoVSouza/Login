@@ -2,8 +2,8 @@
 
 :root {
     --fonte: 'Josefin Sans', sans-serif;
-    --verde: rgb(73, 161, 0);
-    --sombra: rgba(72, 161, 0, 0.137);
+    --verde: #0f0;
+    --sombra: rgba(115, 255, 0, 0.137);
     --branco: rgb(241, 241, 241);
     --cinza: rgba(255, 255, 255, 0.555);
 }

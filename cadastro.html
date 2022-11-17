@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <main id="cadastro">
+        <h1 class="cadastro__titulo">Cadastro</h1>
+        <div>
+            <form class="cadastro__form">
+                <label class="cadastro__form_user">Nome de usuário</label>
+                <input type="text" class="cadastro__form_userInput" placeholder="User" required>
+                <label class="cadastro__form_senha">Email</label>
+                <input type="email" class="cadastro__form_emailInput" placeholder="Email" required>
+                <label class="cadastro__form_senha">Senha</label>
+                <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" class="cadastro__form_senhaInput" placeholder="Senha" required>
+                <label class="cadastro__form_confirmarSenha">Confirmar senha</label>
+                <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" class="cadastro__form_senhaInput" placeholder="Confirma Senha" required>
+                <button class="cadastro__botao">Entrar</button>
+            </form>
+        </div>
+            <h2 class="login"><a href="index.html">Fazer Login</a></h2>
+    </main>
+</body>
+</html>
